@@ -72,16 +72,18 @@ main{
     background-color: #d1342fff;
     color: #ffffff;
 }
-
 .display{
-    
+    overflow: scroll;
 }
+
 .display .recent-operation{
     font-size: 1.3rem;
     margin-top: 1rem;
+    padding-left: 1rem;
 }
 .display .current-operation{
-    margin-top: 4rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
     font-size: 2rem;
 }
 /*Mediaqueries for responsive design*/
