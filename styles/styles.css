@@ -12,17 +12,14 @@
 html{
     font-size: 10px;
 }
-main{
+body{
     background-color:var(--rich-black-fogra-39);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
 
 }
 .calculator{
     width: 40vw;
-    height: 70vh;
-    margin: auto;
+    height: 60rem;
+    margin:10rem auto;
     border-radius: 2rem;
     background-color:var(--eerie-black);
     display: flex;
@@ -31,6 +28,7 @@ main{
 .calculator .display{
     width: 80%;
     height: 10rem;
+    min-height: 7rem;
     margin: 6rem auto 1rem;
     background-color: #ffffff;
 }
@@ -87,12 +85,21 @@ main{
     font-size: 2rem;
 }
 /*Mediaqueries for responsive design*/
+@media (max-width:1000px){
+    html{
+        font-size: 8px;
+    }
+    .calculator{
+        width: 60vw;
+        height: 60rem;
+    }
+}
 @media (max-width:414px){
     html{
         font-size: 5px;
     }
     .calculator{
         width: 70vw;
-        height: 50vh;
+        height: 60rem;
     }
 }
