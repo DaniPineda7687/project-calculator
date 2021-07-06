@@ -40,7 +40,7 @@ body{
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-template-rows: repeat(5, auto);
 }
 .calculator .buttons{
